@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="Build_flow_Saas/Build_flow_Saas.csproj" />
+  <Project Path="Build_Flow_Saas.Shared/Build_Flow_Saas.Shared.csproj" />
+  <Project Path="Build_flow_Saas/Build_flow_Saas.api.csproj" />
 </Solution>

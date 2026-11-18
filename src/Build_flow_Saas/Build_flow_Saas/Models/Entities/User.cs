@@ -1,6 +1,6 @@
 ﻿namespace Build_flow_Saas.api.Models.Entities
 {
-    public class User
+    public class User : BaseModel
     {
         public Guid UserId { get; set; }
         public string? FullName { get; set; }

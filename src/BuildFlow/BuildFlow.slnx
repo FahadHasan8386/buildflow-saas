@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BuildFlow.Api/BuildFlow.Api.csproj" />
+  <Project Path="BuildFlow.Shared/BuildFlow.Shared.csproj" />
+</Solution>

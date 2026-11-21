@@ -1,5 +1,5 @@
 using BuildFlow.Api.Data;
-using BuildFlow.Api.Interfaces;
+using BuildFlow.Api.Interfaces.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

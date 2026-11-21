@@ -1,4 +1,4 @@
-﻿using BuildFlow.Api.Interfaces;
+﻿using BuildFlow.Api.Interfaces.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BuildFlow.Api.Controllers

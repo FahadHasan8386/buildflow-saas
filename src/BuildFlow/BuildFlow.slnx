@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="BuildFlow.Api/BuildFlow.Api.csproj" />
+  <Project Path="BuildFlow.Domain/BuildFlow.Domain.csproj" Id="9b3bb814-8af6-47ac-9536-a13fb98fb386" />
   <Project Path="BuildFlow.Shared/BuildFlow.Shared.csproj" />
 </Solution>

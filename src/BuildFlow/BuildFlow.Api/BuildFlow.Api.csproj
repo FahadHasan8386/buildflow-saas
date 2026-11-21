@@ -16,7 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BuildFlow.Domain\BuildFlow.Domain.csproj" />
     <ProjectReference Include="..\BuildFlow.Shared\BuildFlow.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

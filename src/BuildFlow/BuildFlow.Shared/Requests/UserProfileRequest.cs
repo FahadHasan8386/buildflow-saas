@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BuildFlow.Shared.Requests
 {
-    public class UpdateProfileRequest
+    public class UserProfileRequest
     {
         [Required(ErrorMessage = "First name is required")]
         public string FirstName { get; set; } = string.Empty;

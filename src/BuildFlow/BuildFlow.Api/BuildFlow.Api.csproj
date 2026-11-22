@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Interfaces\Security\" />
     <Folder Include="Services\" />
   </ItemGroup>
 

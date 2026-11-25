@@ -20,8 +20,4 @@
     <ProjectReference Include="..\BuildFlow.Shared\BuildFlow.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\Security\" />
-  </ItemGroup>
-
 </Project>

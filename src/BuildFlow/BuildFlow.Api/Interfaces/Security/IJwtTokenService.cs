@@ -4,6 +4,6 @@ namespace BuildFlow.Api.Interfaces.Security
 {
     public interface IJwtTokenService
     {
-        string GenerateAcessToken(User user, long sessionId);
+        string GenerateAccessToken(User user, long sessionId);
     }
 }

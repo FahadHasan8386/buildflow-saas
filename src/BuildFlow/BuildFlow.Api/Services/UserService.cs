@@ -1,5 +1,6 @@
 ﻿using BuildFlow.Api.Domain.Entities;
 using BuildFlow.Api.Interfaces.Repositories;
+using BuildFlow.Api.Interfaces.Security;
 using BuildFlow.Api.Interfaces.Services;
 using BuildFlow.Shared.Requests;
 using BuildFlow.Shared.Response;
@@ -72,6 +73,21 @@ namespace BuildFlow.Api.Services
             await _userRepository.UpdatePasswordAsync(userId, newHash);
 
             return ApiResponse<string>.SuccessResponse("Password updated successfully.");
+        }
+
+        public Task<ApiResponse<UserProfileResponse>> GetProfiileAsync(long userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ApiResponse<UserProfileResponse>> UpdateProfileAsync(long userId, UserProfileRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<ApiResponse<bool>> IUserService.ChangePasswordAsync(long userId, ChangePasswordRequest request)
+        {
+            throw new NotImplementedException();
         }
     }
 

@@ -10,6 +10,7 @@ namespace BuildFlow.Api.Interfaces.Repositories
 
         Task<bool> ExistsByEmailAsync(string email);
 
+
         Task<long> CreateAsync(User user);
 
         Task UpdateAsync(User user);
